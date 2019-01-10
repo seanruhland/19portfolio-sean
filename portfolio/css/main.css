@@ -339,7 +339,7 @@ template {
   display: none; }
 
 body {
-  color: #A7A7A7;
+  color: #909595;
   font-family: "Source Sans Pro", serif;
   line-height: 1.6;
   background: #FFFFFF;
@@ -353,21 +353,21 @@ h1, h2, p {
   margin-bottom: 1em; }
 
 h1 {
-  color: #03AFC2;
+  color: #61BFAF;
   line-height: 1;
   font-size: 3.125rem; }
 
 h2 {
   font-size: 2rem;
   letter-spacing: 0.2em;
-  color: #606060;
+  color: #343E3D;
   text-transform: uppercase;
   line-height: 1;
   font-family: "Six Caps", sans-serif;
   font-weight: 400; }
 
 .welcome {
-  background-image: url(../img/header-bg.png);
+  background-image: url(../img/DSC_0627.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -387,7 +387,7 @@ h2 {
     .welcome h1 span {
       font-size: 5.5rem;
       letter-spacing: 0.2em;
-      color: #03AFC2;
+      color: #61BFAF;
       text-transform: uppercase;
       line-height: 1;
       font-family: "Six Caps", sans-serif;
@@ -492,3 +492,45 @@ h2 {
 
 .about-text {
   grid-row: 3 / 4; }
+
+.portfolio {
+  text-align: center;
+  background: #B5B8B8;
+  padding: 5em 0; }
+
+.portfolio-item {
+  position: relative;
+  overflow: hidden; }
+  .portfolio-item img {
+    display: block; }
+  .portfolio-item figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 2em;
+    background: rgba(97, 191, 175, 0.3);
+    color: #FFFFFF;
+    text-align: left;
+    display: flex;
+    flex-direction: column; }
+
+.portfolio-title {
+  color: #FFFFFF;
+  font-size: 3.625rem;
+  margin-bottom: auto; }
+
+.portfolio-link {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-bottom: 3px solid #FFFFFF;
+  align-self: flex-start; }
+  .portfolio-link::after {
+    content: url(../img/arrow-white.svg);
+    display: inline-block;
+    height: .8em;
+    width: .8em;
+    margin-left: .5em; }
