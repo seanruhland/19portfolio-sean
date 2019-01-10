@@ -1,0 +1,28 @@
+{
+  "name": "photo-portfolio19",
+  "version": "1.0.0",
+  "description": "Engineering and Photography Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "minify": "gulp minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seanruhland/19portfolio-sean.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/seanruhland/19portfolio-sean/issues"
+  },
+  "homepage": "https://github.com/seanruhland/19portfolio-sean#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
