@@ -2,7 +2,7 @@
 .about-me {
   @include container;
   @include clearfix;
-
+  
   margin-top: 5em;
   margin-bottom: 5em;
 }
@@ -18,7 +18,7 @@
 }
 
 .about-title {
-  margin-bottom: .25em;
+  margin-bottom: .25em;  
 }
 
 .about-subtitle {
@@ -33,7 +33,7 @@
   }
 
   .about-img {
-    grid-column: port-start / img-end;
+    grid-column: port / img;
     grid-row: 1 / 2;
 
     @include mq {
@@ -55,7 +55,6 @@
       grid-column: img-end / port-end;
     }
   }
-}
 
 
   .about-subtitle {
