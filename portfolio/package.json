@@ -23,6 +23,7 @@
     "gulp-sass": "^3.1.0"
   },
   "dependencies": {
+    "jquery": "^3.3.1",
     "normalize.css": "^8.0.1"
   }
 }

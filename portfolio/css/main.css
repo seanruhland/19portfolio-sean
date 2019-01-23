@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Merriweather:400,900|Six+Caps");
+/*@import url("https://fonts.googleapis.com/css?family=Merriweather:400,900|Six+Caps");
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -778,7 +778,7 @@ border-radius: 50%;}
   background-position: center; }
 
 .header-one {
-  background-image: url(../img/portfoliobootstrap.png); }
+  background-image: url(../img/portfolio-01.jpg); }
 
 .header-two {
   background-image: url(../img/portfolio-02.jpg); }
@@ -943,3 +943,4 @@ footer {
   background: rgba(255, 255, 255, 0.15);
   margin: 4em auto;
   width: 25%; }
+*/
